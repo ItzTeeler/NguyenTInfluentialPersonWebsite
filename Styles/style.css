@@ -1,0 +1,41 @@
+/* Fonts */
+@font-face {
+    font-family: Rubik-Bold;
+    src: url(../Fonts/Rubik/static/Rubik-Bold.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../Fonts/Rubik/static/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: Rubik-SemiBold;
+    src: url(../Fonts/Rubik/static/Rubik-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../Fonts/Rubik/static/Rubik-Medium.ttf);
+}
+
+.background-tint {
+    background-color: rgba(0,0,0,.7);
+    background-blend-mode: multiply;
+  }
+.backgroundHeroImage {
+    background-image: 
+    linear-gradient( rgba(0,0,0,.7), rgba(0,0,0,.7) ),
+    url('../assets/GonFreecssHeroImage.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #EAD8B2;
+    max-width: 100%;
+    height: 1080px;
+    
+  }
+
+.borderBottom{
+    border-bottom: 3px solid black;
+}
