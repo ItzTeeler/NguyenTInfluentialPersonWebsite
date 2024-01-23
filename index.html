@@ -20,21 +20,21 @@
     
 
 
-    <nav class="bg-green-500">
+    <nav class="bgColor sticky">
         <div class="px-8 border mx-auto border-none">
             <div class="flex justify-between">
                 <div class="flex space-x-4">
                     <div>
-                        <a href="#" class="flex items-center px-2 text-gray-700">
+                        <a href="./index.html" class="flex items-center px-2 text-gray-700">
                             <img style="width: 150px; height: 80px;" class="" src="./assets/HunterHunterLog.png" alt="">
                         </a>
                     </div>
 
 
-                    <div class="hidden md:flex flex items-center space-x-1">
-                        <a href="#" class=" py-5 px-14 text-white" style="color: white; font-size: 32px; font-family: Rubik-Bold;">About</a>
-                        <a href="#" class=" py-5 px-14 text-white" style="color: white; font-size: 32px; font-family: Rubik-Bold;">Influence</a>
-                        <a href="#" class=" py-5 px-14 text-white" style="color: white; font-size: 32px; font-family: Rubik-Bold;">Gallery</a>
+                    <div class="hidden md:flex items-center space-x-1">
+                        <a href="./Pages/About.html" class=" py-5 px-14 text-white" style="color: white; font-size: 32px; font-family: Rubik-Bold;">About</a>
+                        <a href="./Pages/Influence.html" class=" py-5 px-14 text-white" style="color: white; font-size: 32px; font-family: Rubik-Bold;">Influence</a>
+                        <a href="./Pages/Gallery.html" class=" py-5 px-14 text-white" style="color: white; font-size: 32px; font-family: Rubik-Bold;">Gallery</a>
                     </div>
                     
                 </div>
@@ -49,10 +49,10 @@
                 </div>
             </div>
             <div class="mobile-menu hidden md:hidden">
-                <a href="" class="block py-2 px-4 text-sm text-center" style="color: white; font-size: 18px; font-family: Rubik-Regular;">Home Page</a>
-                <a href="" class="block py-2 px-4 text-sm text-center" style="color: white; font-size: 18px; font-family: Rubik-Regular;">About</a>
-                <a href="" class="block py-2 px-4 text-sm text-center" style="color: white; font-size: 18px; font-family: Rubik-Regular;">Influence</a>
-                <a href="" class="block py-2 px-4 text-sm text-center" style="color: white; font-size: 18px; font-family: Rubik-Regular;">Gallery</a>
+                <a href="./index.html" class="block py-2 px-4 text-sm text-center" style="color: white; font-size: 18px; font-family: Rubik-Regular;">Home Page</a>
+                <a href="./Pages/About.html" class="block py-2 px-4 text-sm text-center" style="color: white; font-size: 18px; font-family: Rubik-Regular;">About</a>
+                <a href="./Pages/Influence.html" class="block py-2 px-4 text-sm text-center" style="color: white; font-size: 18px; font-family: Rubik-Regular;">Influence</a>
+                <a href="./Pages/Gallery.html" class="block py-2 px-4 text-sm text-center" style="color: white; font-size: 18px; font-family: Rubik-Regular;">Gallery</a>
             </div>
 
         </div>
@@ -64,19 +64,28 @@
     </nav>
 
 
-    <section>
-        <div class="grid grid-cols-2">
-            <div class="px-64" style="margin-top: 259px;">
-                <p class="borderBottom" style="color: black; font-size: 50px; font-family: Rubik-Medium; padding-bottom: 40px;">Hunter x Hunter</p>
-                <p>
-                    <hr>
-                </p>
-                <p style="color: black; font-size: 50px; font-family: Rubik-Medium; padding-top: 40px;">Gon Freecss</p>
-                <p style="color: black; font-size: 20px; font-family: Rubik-Regular; padding-top: 10px;">By Tyler Nguyen</p>
+    <section class="">
+        <div class="grid grid-cols-11">
+
+            <div class="col-span-11 px-5 lg:col-span-5 mt-[1.875rem] lg:mt-[16.1875rem] lg:pl-[8.375rem]" style="">
+                <p class="text-center lg:text-left borderBottom text-black text-[3.125rem] pb-[2.5rem] lg:mr-[17.625rem] " style="font-family: Rubik-Medium;">Hunter x Hunter</p>
+                <div class=" lg:hidden order-1 col-span-11 px-5 lg:col-span-6 mt-[1.875rem] lg:mt-[9.6875rem] lg:mb-[9.6875rem] flex justify-center">
+                    <img class="object-cover border-black border-solid border-4 w-[61.6875rem] h-[36.75rem]" style=" width: 987px; height: 588px;" src="./assets/GonFress.jpg" alt="">
+                </div>
+                <!-- <div class="lg:hidden"><hr class="lg:w-[25.25rem] lg:text-black h-[5px] lg:bg-black lg:border-t-0" style=""></div> -->
+                <p class=" px-8 lg:px-0 text-black text-[3.125rem] pt-[2.5rem]" style="font-family: Rubik-Medium;">Gon Freecss</p>
+                <p class=" px-8 lg:px-0 text-black text-[1.25rem] pt-[0.625rem]" style="font-family: Rubik-Regular;">By Tyler Nguyen</p>
+                <button class="mx-8 lg:mx-0 bg-green-700 mt-[1.875rem] lg:mt-[3.75rem]" style="">
+                    <a href="./Pages/About.html">
+                        <p class="text-[2rem] text-white mx-2 my-2 lg:mx-[2.125rem] lg:my-[0.75rem]" style="font-family: Rubik-Medium;">About Gon Freecss!</p>
+                    </a>
+                </button>
             </div>
-            <div style="margin-top: 155px; margin-bottom: 155px;">
-                <img style="border: 5px solid black;" src="./assets/GonFress.jpg" alt="">
+
+            <div class="col-span-11 px-5 lg:col-span-6 mt-[9.6875rem] mb-[9.6875rem] flex justify-center">
+                <img class="hidden lg:block object-cover border-black border-solid border-4 w-[61.6875rem] h-[36.75rem]" style=" width: 987px; height: 588px;" src="./assets/GonFress.jpg" alt="">
             </div>
+
         </div>
     </section>
 
