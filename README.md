@@ -6,8 +6,8 @@ Description - This website is a multipage site using Vanilla JS and Tailwind, on
 The site contains the following.
 
 Responsive
-Multiple pages - At least 4
-1 page must be why it's influential to you.
+Multiple pages - 4 Pages
+1 page why Gon is influential to me.
 Must be well designed 
 
 This Website is about Gon Freecss from Hunter x Hunter.
