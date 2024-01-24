@@ -19,10 +19,6 @@
     src: url(../Fonts/Rubik/static/Rubik-Medium.ttf);
 }
 
-.background-tint {
-    background-color: rgba(0,0,0,.7);
-    background-blend-mode: multiply;
-  }
 .backgroundHeroImage {
     background-image: 
     linear-gradient( rgba(0,0,0,.7), rgba(0,0,0,.7) ),

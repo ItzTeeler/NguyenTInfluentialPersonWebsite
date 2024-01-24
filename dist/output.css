@@ -775,6 +775,18 @@ video {
   height: 5px;
 }
 
+.h-\[3\.5rem\] {
+  height: 3.5rem;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[5rem\] {
+  height: 5rem;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -789,6 +801,22 @@ video {
 
 .w-\[61\.6875rem\] {
   width: 61.6875rem;
+}
+
+.w-\[3\.\] {
+  width: 3.;
+}
+
+.w-\[3\.5rem\] {
+  width: 3.5rem;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[9\.375rem\] {
+  width: 9.375rem;
 }
 
 .grid-cols-11 {
@@ -1041,6 +1069,10 @@ video {
 
 .text-\[1\.875rem\] {
   font-size: 1.875rem;
+}
+
+.text-\[1\.125rem\] {
+  font-size: 1.125rem;
 }
 
 .font-\[1\.675\] {
