@@ -32,17 +32,5 @@
     
   }
 
-.borderBottom{
-    border-bottom: 3px solid black;
-}
 
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    width: 100%;
-}
 
-.bgColor{
-    background-color: #489543;
-}
